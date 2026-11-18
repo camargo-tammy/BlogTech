@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Tech | Tecnologia e Programação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Blog Tech</h1>
+    <p>Compartilhando conhecimentos de tecnologia e programação</p>
+  </header>
+
+  <main>
+    <!-- Pastas Interativas feitas 100% com HTML e CSS puro -->
+    <section class="pastas-container">
+      <h2>Pastas de Conteúdo do Blog</h2>
+      <p class="subtitulo">Clique nas pastas abaixo para abrir e ver os materiais disponíveis:</p>
+
+      <details class="pasta">
+        <summary>
+          <span class="icone-fechada">📁</span>
+          <span class="icone-aberta">📂</span>
+          <strong>01_HTML_e_Estrutura_Semantica</strong>
+        </summary>
+        <div class="conteudo-pasta">
+          <p><strong>📄 index.html:</strong> Estrutura base do Blog Tech usando <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code> e <code>&lt;article&gt;</code>.</p>
+          <p><strong>📄 tags_principais.txt:</strong> Títulos, parágrafos, imagens e botões de interação.</p>
+        </div>
+      </details>
+
+      <details class="pasta">
+        <summary>
+          <span class="icone-fechada">📁</span>
+          <span class="icone-aberta">📂</span>
+          <strong>02_Estilizacao_CSS_e_Flexbox</strong>
+        </summary>
+        <div class="conteudo-pasta">
+          <p><strong>🎨 style.css:</strong> Centralização do <code>main</code> com margem automática e largura máxima.</p>
+          <p><strong>🎨 flexbox_artigos.css:</strong> Alinhamento lado a lado com imagens de tamanho fixo e autor em negrito.</p>
+        </div>
+      </details>
+
+      <details class="pasta">
+        <summary>
+          <span class="icone-fechada">📁</span>
+          <span class="icone-aberta">📂</span>
+          <strong>03_Projetos_e_Desafios</strong>
+        </summary>
+        <div class="conteudo-pasta">
+          <p><strong>🚀 Desafio 01:</strong> Criar novos artigos mantendo o mesmo padrão visual.</p>
+          <p><strong>🚀 Desafio 02:</strong> Personalizar cores e efeitos de hover nos botões.</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Postagens do Blog Tech (Estrutura original do vídeo) -->
+    <article>
+      <img src="https://placehold.co/250x180/0f172a/38bdf8?text=HTML+e+CSS" alt="Ilustração sobre desenvolvimento web">
+      <div class="post-conteudo">
+        <h2>Primeiros passos com HTML e CSS</h2>
+        <p class="autor">Por: Ana Silva</p>
+        <p>Aprenda como estruturar páginas semânticas na web utilizando header, main e article com Flexbox moderno.</p>
+        <div class="botoes">
+          <button type="button">Curtir</button>
+          <button type="button">Compartilhar</button>
+        </div>
+      </div>
+    </article>
+
+    <article>
+      <img src="https://placehold.co/250x180/0f172a/38bdf8?text=Flexbox" alt="Ilustração sobre layout responsivo">
+      <div class="post-conteudo">
+        <h2>Organizando postagens com CSS Flexbox</h2>
+        <p class="autor">Por: Carlos Souza</p>
+        <p>Veja como alinhar imagens de tamanho fixo ao lado do conteúdo e destacar o nome do autor em negrito.</p>
+        <div class="botoes">
+          <button type="button">Curtir</button>
+          <button type="button">Compartilhar</button>
+        </div>
+      </div>
+    </article>
+  </main>
+
+</body>
+</html>
